@@ -18,7 +18,7 @@ DB_DUMP_FILE="testdb.dump.sql"
 ```
 
 ### Run
-The script can be exeuted directly from bash or can be executed from Crontab.
+The script can be executed directly from bash or can be executed from Crontab.
 
 To run it from Crontab:
 
@@ -26,6 +26,3 @@ To run it from Crontab:
 # GDB (Git Dump Backup)
 1 */3 * * * /bin/bash /path/to/git-dump-backup/gdb.sh >> /path/to/git-dump-backup/gdb.log
 ```
-
-## Author
-Newton Calegari, newton@nic.br

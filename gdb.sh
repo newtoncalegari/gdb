@@ -1,9 +1,14 @@
 #!/bin/bash
+#
+# Author: Newton Calegari (newton@nic.br)
+#
+# GDB (Git Dump Backup) is a script to incremental backup of MySQL Dump files
+# Source code: https://github.com/newtoncalegari/gdb
 
-# Log settings
+# Log and display settings
 DT="`date --rfc-3339='seconds'`"
 
-# Config
+# Database Config
 DB_SCHEME="db_test"
 DB_USER="user"
 DB_PASS="password"
